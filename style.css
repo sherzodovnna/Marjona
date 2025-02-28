@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 400px;
+}
+
+
+div{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    box-shadow: 0 0 20px aqua;
+    animation-name: tochka;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.box2{
+     animation-delay: 0.9s;
+ 
+   
+ }
+ .box3{
+     animation-delay: 1.3s;
+ 
+   
+ }
+ .box4{
+     animation-delay: 1.7s;
+ 
+   
+ }
+ .box5{
+     animation-delay: 2.1s;
+ 
+   
+ }
+@keyframes tochka {
+    from{
+        width: 35px;
+        height: 35px;
+    }
+    to{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(45, 119, 229);
+        box-shadow: 0 0 50px rgb(45, 119, 229);
+    }
+
+}
